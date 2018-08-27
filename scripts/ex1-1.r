@@ -18,3 +18,4 @@ data1.summarise
 library(ggplot2)
 kk = data1 %>% select(SEX, DOSE)
 boxplot(kk)
+boxplot(data1$AGE~data1$SEX)
